@@ -8,13 +8,13 @@ namespace CS321_W3D1_BookAPI.Services
         // CRUDL - create (add), read (get), update, delete (remove), list
 
         // create
-        Book Add(Book todo); 
+        Book Add(Book book); 
         // read
         Book Get(int id);
         // update
-        Book Update(Book todo); 
+        Book Update(Book book); 
         // delete
-        void Remove(Book todo);
+        void Remove(Book book);
         // list
         IEnumerable<Book> GetAll();
     }
